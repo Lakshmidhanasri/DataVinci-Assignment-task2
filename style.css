@@ -1,0 +1,80 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f4f7fc;
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Select All Styling */
+.select-all {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5733;
+    /* Orange */
+    margin-bottom: 15px;
+}
+
+/* Category Container */
+.category {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Fruits Section */
+.fruits {
+    background: #fff5f0;
+    border-left: 5px solid #ff5733;
+}
+
+.fruits label {
+    color: #e74c3c;
+    /* Red tone */
+    font-weight: 500;
+}
+
+/* Vegetables Section */
+.vegetables {
+    background: #f0fff5;
+    border-left: 5px solid #2ecc71;
+}
+
+.vegetables label {
+    color: #27ae60;
+    /* Green tone */
+    font-weight: 500;
+}
+
+/* Items inside categories */
+.items {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* Item labels */
+.items label {
+    display: block;
+    margin: 5px 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover effect */
+.items label:hover {
+    color: #3498db;
+    font-weight: bold;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    margin-right: 8px;
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Website</title>
+  <link rel="stylesheet" href="style.css"> <!-- Link CSS -->
+</head>
+
+<body>
+    <h2>Nested Checkbox</h2>
+
+    <!-- Select All -->
+    <label>
+        <input type="checkbox" id="selectAll" />
+        <span>Select All</span>
+    </label>
+
+    <!-- Fruits -->
+    <div class="category">
+        <label>
+            <input type="checkbox" class="category-checkbox" data-category="fruits" />
+            <span>Fruits</span>
+        </label>
+        <div class="items">
+            <label><input type="checkbox" class="fruit" /> <span>Apple</span></label>
+            <label><input type="checkbox" class="fruit" /> <span>Banana</span></label>
+            <label><input type="checkbox" class="fruit" /> <span>Orange</span></label>
+        </div>
+    </div>
+
+    <!-- Vegetables -->
+    <div class="category">
+        <label>
+            <input type="checkbox" class="category-checkbox" data-category="vegetables" />
+            <span>Vegetables</span>
+        </label>
+        <div class="items">
+            <label><input type="checkbox" class="vegetable" /> <span>Carrot</span></label>
+            <label><input type="checkbox" class="vegetable" /> <span>Broccoli</span></label>
+            <label><input type="checkbox" class="vegetable" /> <span>Potato</span></label>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link JS -->
+</body>
+
+</html>
